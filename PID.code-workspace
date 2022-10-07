@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../PID"
+		},
+		{
+			"name": "State-machine",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
