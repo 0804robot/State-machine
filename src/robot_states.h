@@ -14,12 +14,7 @@ enum class RobotState {
 	celebrarion
 };
 
-std::map<RobotState, RobotState> robotTransitions = {
-	{RobotState::idle, RobotState::line_following},
-	{RobotState::line_following, RobotState::obstacle_avoidance},
-	{RobotState::obstacle_avoidance, RobotState::stop_and_go},
-	{RobotState::stop_and_go, RobotState::maze},
-	{RobotState::maze, RobotState::celebrarion}
-};
+extern std::map<RobotState, RobotState> robotTransitions;
+
 
 #endif 
