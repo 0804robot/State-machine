@@ -1,7 +1,9 @@
 #ifndef ROBOT_STATES_H
 #define ROBOT_STATES_H
 #pragma once
-#include <map>
+#if defined(ESP32) 
+	#include <map>
+#endif
 
 enum class RobotState {
 	idle,
