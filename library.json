@@ -19,7 +19,6 @@
     "license": "MIT",
     "homepage": "",
     "dependencies": {
-      "maniacbug/StandardCplusplus": "*"
     },
     "frameworks": "*",
     "platforms": "*"
