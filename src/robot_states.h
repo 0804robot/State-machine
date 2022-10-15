@@ -3,6 +3,9 @@
 #pragma once
 #if defined(ESP32) 
 	#include <map>
+#else
+	#include <StandardCplusplus.h>
+	#include <map>
 #endif
 
 enum class RobotState {
