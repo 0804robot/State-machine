@@ -10,8 +10,8 @@
 enum class RobotState {
 	idle,
 	line_following,
-	obstacle_avoidance,
 	stop_and_go,
+	obstacle_avoidance,
 	maze,
 	celebrarion
 };
